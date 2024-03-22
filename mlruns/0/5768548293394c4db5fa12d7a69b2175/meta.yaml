@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/5768548293394c4db5fa12d7a69b2175/artifacts
+end_time: 1711062191711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5768548293394c4db5fa12d7a69b2175
+run_name: efficient-yak-399
+run_uuid: 5768548293394c4db5fa12d7a69b2175
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711062089521
+status: 3
+tags: []
+user_id: rhino

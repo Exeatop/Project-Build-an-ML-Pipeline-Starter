@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/f6329c501a734b3f93f9ee767ee780fe/artifacts
+end_time: 1711060395484
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f6329c501a734b3f93f9ee767ee780fe
+run_name: funny-hog-613
+run_uuid: f6329c501a734b3f93f9ee767ee780fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711060358535
+status: 4
+tags: []
+user_id: rhino

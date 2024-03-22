@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d3447a28fbff45e89b9b1330fdc3c07a/artifacts
+end_time: 1711059330178
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d3447a28fbff45e89b9b1330fdc3c07a
+run_name: clumsy-ox-618
+run_uuid: d3447a28fbff45e89b9b1330fdc3c07a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711059176288
+status: 4
+tags: []
+user_id: rhino

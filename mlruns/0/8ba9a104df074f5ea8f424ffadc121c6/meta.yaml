@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8ba9a104df074f5ea8f424ffadc121c6/artifacts
+end_time: 1711062089419
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ba9a104df074f5ea8f424ffadc121c6
+run_name: merciful-perch-38
+run_uuid: 8ba9a104df074f5ea8f424ffadc121c6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711062026060
+status: 3
+tags: []
+user_id: rhino

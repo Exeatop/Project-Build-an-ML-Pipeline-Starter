@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/81786f518496421cb398ef69b6147b63/artifacts
+end_time: 1711062553235
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 81786f518496421cb398ef69b6147b63
+run_name: polite-bee-272
+run_uuid: 81786f518496421cb398ef69b6147b63
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711062302585
+status: 3
+tags: []
+user_id: rhino

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/225aa0cbabbf4782b6679911938e7607/artifacts
+end_time: 1711064032309
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 225aa0cbabbf4782b6679911938e7607
+run_name: silent-bug-696
+run_uuid: 225aa0cbabbf4782b6679911938e7607
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711063950713
+status: 3
+tags: []
+user_id: rhino

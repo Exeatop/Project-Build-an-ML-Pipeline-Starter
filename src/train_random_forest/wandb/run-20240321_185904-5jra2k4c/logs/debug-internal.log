@@ -1,0 +1,215 @@
+2024-03-21 18:59:04,278 INFO    StreamThr :38930 [internal.py:wandb_internal():87] W&B internal server running at pid: 38930, started at: 2024-03-21 18:59:04.278209
+2024-03-21 18:59:04,279 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status
+2024-03-21 18:59:04,281 INFO    WriterThread:38930 [datastore.py:open_for_write():85] open: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/run-5jra2k4c.wandb
+2024-03-21 18:59:04,281 DEBUG   SenderThread:38930 [sender.py:send():334] send: header
+2024-03-21 18:59:04,285 DEBUG   SenderThread:38930 [sender.py:send():334] send: run
+2024-03-21 18:59:04,700 INFO    SenderThread:38930 [dir_watcher.py:__init__():216] watching files in: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files
+2024-03-21 18:59:04,700 INFO    SenderThread:38930 [sender.py:_start_run_threads():1065] run started: 5jra2k4c with start time 1711061944.277716
+2024-03-21 18:59:04,700 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: summary_record
+2024-03-21 18:59:04,701 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:04,701 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: check_version
+2024-03-21 18:59:04,701 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: check_version
+2024-03-21 18:59:04,899 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: run_start
+2024-03-21 18:59:04,919 DEBUG   HandlerThread:38930 [system_info.py:__init__():31] System info init
+2024-03-21 18:59:04,919 DEBUG   HandlerThread:38930 [system_info.py:__init__():46] System info init done
+2024-03-21 18:59:04,919 INFO    HandlerThread:38930 [system_monitor.py:start():151] Starting system monitor
+2024-03-21 18:59:04,919 INFO    SystemMonitor:38930 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2024-03-21 18:59:04,920 INFO    HandlerThread:38930 [system_monitor.py:probe():172] Collecting system info
+2024-03-21 18:59:04,920 INFO    SystemMonitor:38930 [interfaces.py:start():168] Started cpu
+2024-03-21 18:59:04,921 INFO    SystemMonitor:38930 [interfaces.py:start():168] Started disk
+2024-03-21 18:59:04,921 INFO    SystemMonitor:38930 [interfaces.py:start():168] Started gpu
+2024-03-21 18:59:04,922 INFO    SystemMonitor:38930 [interfaces.py:start():168] Started memory
+2024-03-21 18:59:04,923 INFO    SystemMonitor:38930 [interfaces.py:start():168] Started network
+2024-03-21 18:59:04,934 DEBUG   HandlerThread:38930 [system_info.py:probe():195] Probing system
+2024-03-21 18:59:04,954 DEBUG   HandlerThread:38930 [system_info.py:_probe_git():180] Probing git
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_info.py:_probe_git():188] Probing git done
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_info.py:probe():241] Probing system done
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_monitor.py:probe():181] {'os': 'Linux-5.15.146.1-microsoft-standard-WSL2-x86_64-with-glibc2.35', 'python': '3.9.19', 'heartbeatAt': '2024-03-21T22:59:04.934547', 'startedAt': '2024-03-21T22:59:04.272881', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/home/rhino/Project-Build-an-ML-Pipeline-Starter/multirun/2024-03-21/18-59-01/0/rf_config.json', '--max_tfidf_features', '5', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/Exeatop/Project-Build-an-ML-Pipeline-Starter.git', 'commit': '077621b0ed54d88e8c2f5ef3dea7b725c4ea7c98'}, 'email': None, 'root': '/home/rhino/Project-Build-an-ML-Pipeline-Starter', 'host': 'DESKTOP-96PS9TG', 'username': 'rhino', 'executable': '/home/rhino/miniconda3/envs/mlflow-d6c04384fb9356865b6d231fc3cbd1b1b9b4863e/bin/python', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 3693.103000000001, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}, {'current': 3693.103, 'min': 0.0, 'max': 0.0}], 'disk': {'total': 1006.853931427002, 'used': 16.616451263427734}, 'gpu': 'NVIDIA GeForce RTX 3060', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3060', 'memory_total': 12884901888}], 'memory': {'total': 7.695713043212891}}
+2024-03-21 18:59:04,960 INFO    HandlerThread:38930 [system_monitor.py:probe():182] Finished collecting system info
+2024-03-21 18:59:04,960 INFO    HandlerThread:38930 [system_monitor.py:probe():185] Publishing system info
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_info.py:_save_pip():67] Saving pip packages done
+2024-03-21 18:59:04,960 DEBUG   HandlerThread:38930 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2024-03-21 18:59:05,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/conda-environment.yaml
+2024-03-21 18:59:05,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/requirements.txt
+2024-03-21 18:59:05,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-summary.json
+2024-03-21 18:59:06,084 DEBUG   HandlerThread:38930 [system_info.py:_save_conda():86] Saving conda packages done
+2024-03-21 18:59:06,085 INFO    HandlerThread:38930 [system_monitor.py:probe():187] Finished publishing system info
+2024-03-21 18:59:06,087 DEBUG   SenderThread:38930 [sender.py:send():334] send: files
+2024-03-21 18:59:06,087 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-metadata.json with policy now
+2024-03-21 18:59:06,091 DEBUG   SenderThread:38930 [sender.py:send():334] send: telemetry
+2024-03-21 18:59:06,092 DEBUG   SenderThread:38930 [sender.py:send():334] send: config
+2024-03-21 18:59:06,092 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: stop_status
+2024-03-21 18:59:06,093 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: stop_status
+2024-03-21 18:59:06,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/conda-environment.yaml
+2024-03-21 18:59:06,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-metadata.json
+2024-03-21 18:59:06,768 INFO    Thread-16 :38930 [upload_job.py:push():143] Uploaded file /tmp/tmpnoa7kv7uwandb/p6p3wb6k-wandb-metadata.json
+2024-03-21 18:59:07,258 DEBUG   SenderThread:38930 [sender.py:send():334] send: config
+2024-03-21 18:59:07,259 DEBUG   SenderThread:38930 [sender.py:send():334] send: use_artifact
+2024-03-21 18:59:07,702 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log
+2024-03-21 18:59:09,703 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log
+2024-03-21 18:59:10,260 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status_report
+2024-03-21 18:59:15,260 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status_report
+2024-03-21 18:59:19,193 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: log_artifact
+2024-03-21 18:59:19,194 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: log_artifact
+2024-03-21 18:59:19,705 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log
+2024-03-21 18:59:19,892 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: partial_history
+2024-03-21 18:59:20,382 INFO    Thread-19 :38930 [upload_job.py:push():98] Skipped uploading /home/rhino/.local/share/wandb/artifacts/staging/tmpetkhozi_
+2024-03-21 18:59:20,382 INFO    Thread-20 :38930 [upload_job.py:push():98] Skipped uploading /home/rhino/.local/share/wandb/artifacts/staging/tmpmk8a0rrf
+2024-03-21 18:59:20,382 INFO    Thread-23 :38930 [upload_job.py:push():98] Skipped uploading /home/rhino/.local/share/wandb/artifacts/staging/tmpcs4xro1s
+2024-03-21 18:59:20,382 INFO    Thread-22 :38930 [upload_job.py:push():98] Skipped uploading /home/rhino/.local/share/wandb/artifacts/staging/tmpphahbm48
+2024-03-21 18:59:20,706 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-03-21 18:59:20,706 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/media/images
+2024-03-21 18:59:20,706 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_created():275] file/dir created: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/media
+2024-03-21 18:59:20,776 INFO    Thread-18 :38930 [upload_job.py:push():101] Uploaded file /home/rhino/.local/share/wandb/artifacts/staging/tmprtnzqk1q
+2024-03-21 18:59:20,895 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-21 18:59:21,504 INFO    Thread-24 :38930 [upload_job.py:push():143] Uploaded file /tmp/tmpnoa7kv7uwandb/bsn1cp3b-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-03-21 18:59:25,896 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-21 18:59:27,001 INFO    Thread-21 :38930 [upload_job.py:push():101] Uploaded file /home/rhino/.local/share/wandb/artifacts/staging/tmpc_fcv7n4
+2024-03-21 18:59:28,095 INFO    SenderThread:38930 [sender.py:send_request_log_artifact():1379] logged artifact random_forest_export - {'id': 'QXJ0aWZhY3Q6NzY2MDAzNzYy', 'digest': '944e475846811bb776191cf0c33d686b', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTI1MTM0Mg==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY1OTgwMDc1', 'versionIndex': 1}}, 'version': 'latest'}
+2024-03-21 18:59:28,095 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: summary_record
+2024-03-21 18:59:28,095 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status_report
+2024-03-21 18:59:28,097 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:28,097 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: summary_record
+2024-03-21 18:59:28,098 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:28,098 DEBUG   SenderThread:38930 [sender.py:send():334] send: files
+2024-03-21 18:59:28,098 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file media/images/feature_importance_0_0c5964a443c246c7a8ae.png with policy now
+2024-03-21 18:59:28,098 DEBUG   SenderThread:38930 [sender.py:send():334] send: history
+2024-03-21 18:59:28,098 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: summary_record
+2024-03-21 18:59:28,098 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:28,098 DEBUG   SenderThread:38930 [sender.py:send():334] send: exit
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:send_exit():557] handling exit code: 0
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:send_exit():559] handling runtime: 14
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:send_exit():565] send defer
+2024-03-21 18:59:28,099 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: poll_exit
+2024-03-21 18:59:28,099 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,099 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 0
+2024-03-21 18:59:28,099 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 0
+2024-03-21 18:59:28,099 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 1
+2024-03-21 18:59:28,100 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,100 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 1
+2024-03-21 18:59:28,100 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,100 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 1
+2024-03-21 18:59:28,100 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 2
+2024-03-21 18:59:28,100 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,100 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 2
+2024-03-21 18:59:28,100 INFO    HandlerThread:38930 [system_monitor.py:finish():161] Stopping system monitor
+2024-03-21 18:59:28,103 INFO    HandlerThread:38930 [interfaces.py:finish():175] Joined cpu
+2024-03-21 18:59:28,103 INFO    HandlerThread:38930 [interfaces.py:finish():175] Joined disk
+2024-03-21 18:59:28,103 DEBUG   SystemMonitor:38930 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2024-03-21 18:59:28,103 DEBUG   SystemMonitor:38930 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2024-03-21 18:59:28,103 DEBUG   SystemMonitor:38930 [system_monitor.py:_start():141] Publishing last batch of metrics
+2024-03-21 18:59:28,109 INFO    HandlerThread:38930 [interfaces.py:finish():175] Joined gpu
+2024-03-21 18:59:28,109 INFO    HandlerThread:38930 [interfaces.py:finish():175] Joined memory
+2024-03-21 18:59:28,109 INFO    HandlerThread:38930 [interfaces.py:finish():175] Joined network
+2024-03-21 18:59:28,109 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,109 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 2
+2024-03-21 18:59:28,109 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 3
+2024-03-21 18:59:28,110 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,110 DEBUG   SenderThread:38930 [sender.py:send():334] send: stats
+2024-03-21 18:59:28,110 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 3
+2024-03-21 18:59:28,110 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,110 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 3
+2024-03-21 18:59:28,110 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 4
+2024-03-21 18:59:28,110 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,110 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 4
+2024-03-21 18:59:28,110 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,111 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 4
+2024-03-21 18:59:28,111 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 5
+2024-03-21 18:59:28,111 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,111 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 5
+2024-03-21 18:59:28,111 DEBUG   SenderThread:38930 [sender.py:send():334] send: summary
+2024-03-21 18:59:28,111 INFO    SenderThread:38930 [sender.py:_save_file():1319] saving file wandb-summary.json with policy end
+2024-03-21 18:59:28,111 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,111 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 5
+2024-03-21 18:59:28,111 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 6
+2024-03-21 18:59:28,111 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,111 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 6
+2024-03-21 18:59:28,112 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,112 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 6
+2024-03-21 18:59:28,114 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status_report
+2024-03-21 18:59:28,311 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 7
+2024-03-21 18:59:28,311 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:28,311 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 7
+2024-03-21 18:59:28,311 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:28,312 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 7
+2024-03-21 18:59:28,708 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/config.yaml
+2024-03-21 18:59:28,708 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-summary.json
+2024-03-21 18:59:28,801 INFO    Thread-25 :38930 [upload_job.py:push():143] Uploaded file /tmp/tmpnoa7kv7uwandb/n4osbd8k-media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-03-21 18:59:29,283 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 8
+2024-03-21 18:59:29,283 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:29,283 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 8
+2024-03-21 18:59:29,284 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:29,284 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 8
+2024-03-21 18:59:29,292 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 9
+2024-03-21 18:59:29,292 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:29,292 DEBUG   SenderThread:38930 [sender.py:send():334] send: artifact
+2024-03-21 18:59:29,292 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 9
+2024-03-21 18:59:29,708 INFO    Thread-13 :38930 [dir_watcher.py:_on_file_modified():292] file/dir modified: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log
+2024-03-21 18:59:30,181 INFO    Thread-27 :38930 [upload_job.py:push():98] Skipped uploading /home/rhino/.local/share/wandb/artifacts/staging/tmpkuueo9if
+2024-03-21 18:59:30,471 INFO    Thread-28 :38930 [upload_job.py:push():101] Uploaded file /home/rhino/.local/share/wandb/artifacts/staging/tmpnfo8gy4a
+2024-03-21 18:59:30,897 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: keepalive
+2024-03-21 18:59:31,907 INFO    SenderThread:38930 [sender.py:send_artifact():1415] sent artifact job-https___github.com_Exeatop_Project-Build-an-ML-Pipeline-Starter.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NzY2MDAzOTI1', 'digest': 'a00e110c4eeefa78bf52e0891823d5fc', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE1MTI1MTM3Nw==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NzY1OTY1NjE2', 'versionIndex': 0}}, 'version': 'latest'}
+2024-03-21 18:59:31,907 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:31,907 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 9
+2024-03-21 18:59:31,907 INFO    SenderThread:38930 [dir_watcher.py:finish():362] shutting down directory watcher
+2024-03-21 18:59:32,709 INFO    SenderThread:38930 [dir_watcher.py:finish():392] scan: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files
+2024-03-21 18:59:32,710 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/config.yaml config.yaml
+2024-03-21 18:59:32,710 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-metadata.json wandb-metadata.json
+2024-03-21 18:59:32,710 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-summary.json wandb-summary.json
+2024-03-21 18:59:32,712 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log output.log
+2024-03-21 18:59:32,712 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/requirements.txt requirements.txt
+2024-03-21 18:59:32,714 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/conda-environment.yaml conda-environment.yaml
+2024-03-21 18:59:32,716 INFO    SenderThread:38930 [dir_watcher.py:finish():406] scan save: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/media/images/feature_importance_0_0c5964a443c246c7a8ae.png media/images/feature_importance_0_0c5964a443c246c7a8ae.png
+2024-03-21 18:59:32,717 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 10
+2024-03-21 18:59:32,720 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:32,720 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 10
+2024-03-21 18:59:32,720 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:32,720 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 10
+2024-03-21 18:59:32,720 INFO    SenderThread:38930 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-21 18:59:33,252 INFO    Thread-29 :38930 [upload_job.py:push():143] Uploaded file /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/config.yaml
+2024-03-21 18:59:33,296 INFO    Thread-33 :38930 [upload_job.py:push():143] Uploaded file /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/conda-environment.yaml
+2024-03-21 18:59:33,321 INFO    Thread-32 :38930 [upload_job.py:push():143] Uploaded file /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/requirements.txt
+2024-03-21 18:59:33,372 INFO    Thread-31 :38930 [upload_job.py:push():143] Uploaded file /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/output.log
+2024-03-21 18:59:33,381 INFO    Thread-30 :38930 [upload_job.py:push():143] Uploaded file /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/files/wandb-summary.json
+2024-03-21 18:59:33,581 INFO    Thread-12 :38930 [sender.py:transition_state():585] send defer: 11
+2024-03-21 18:59:33,582 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:33,582 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 11
+2024-03-21 18:59:33,582 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:33,582 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 11
+2024-03-21 18:59:33,582 INFO    SenderThread:38930 [file_pusher.py:join():165] waiting for file pusher
+2024-03-21 18:59:33,583 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 12
+2024-03-21 18:59:33,583 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:33,583 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 12
+2024-03-21 18:59:33,583 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: status_report
+2024-03-21 18:59:33,583 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:33,583 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 12
+2024-03-21 18:59:33,666 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 13
+2024-03-21 18:59:33,666 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:33,667 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 13
+2024-03-21 18:59:33,667 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:33,667 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 13
+2024-03-21 18:59:33,667 INFO    SenderThread:38930 [sender.py:transition_state():585] send defer: 14
+2024-03-21 18:59:33,667 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: defer
+2024-03-21 18:59:33,667 DEBUG   SenderThread:38930 [sender.py:send():334] send: final
+2024-03-21 18:59:33,667 INFO    HandlerThread:38930 [handler.py:handle_request_defer():170] handle defer: 14
+2024-03-21 18:59:33,668 DEBUG   SenderThread:38930 [sender.py:send():334] send: footer
+2024-03-21 18:59:33,668 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: defer
+2024-03-21 18:59:33,668 INFO    SenderThread:38930 [sender.py:send_request_defer():581] handle sender defer: 14
+2024-03-21 18:59:33,668 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: poll_exit
+2024-03-21 18:59:33,669 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: poll_exit
+2024-03-21 18:59:33,669 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: server_info
+2024-03-21 18:59:33,669 DEBUG   SenderThread:38930 [sender.py:send_request():361] send_request: server_info
+2024-03-21 18:59:33,670 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: get_summary
+2024-03-21 18:59:33,671 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: sampled_history
+2024-03-21 18:59:33,839 INFO    MainThread:38930 [wandb_run.py:_footer_history_summary_info():3427] rendering history
+2024-03-21 18:59:33,839 INFO    MainThread:38930 [wandb_run.py:_footer_history_summary_info():3459] rendering summary
+2024-03-21 18:59:33,840 INFO    MainThread:38930 [wandb_run.py:_footer_sync_info():3383] logging synced files
+2024-03-21 18:59:33,840 DEBUG   HandlerThread:38930 [handler.py:handle_request():144] handle_request: shutdown
+2024-03-21 18:59:33,840 INFO    HandlerThread:38930 [handler.py:finish():841] shutting down handler
+2024-03-21 18:59:34,669 INFO    WriterThread:38930 [datastore.py:close():299] close: /home/rhino/Project-Build-an-ML-Pipeline-Starter/src/train_random_forest/wandb/run-20240321_185904-5jra2k4c/run-5jra2k4c.wandb
+2024-03-21 18:59:34,839 INFO    SenderThread:38930 [sender.py:finish():1491] shutting down sender
+2024-03-21 18:59:34,840 INFO    SenderThread:38930 [file_pusher.py:finish():160] shutting down file pusher
+2024-03-21 18:59:34,840 INFO    SenderThread:38930 [file_pusher.py:join():165] waiting for file pusher

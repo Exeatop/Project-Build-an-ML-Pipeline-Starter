@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d92eb97ef7734e538e737cc4dc3a2c60/artifacts
+end_time: 1711057146739
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d92eb97ef7734e538e737cc4dc3a2c60
+run_name: unruly-snail-922
+run_uuid: d92eb97ef7734e538e737cc4dc3a2c60
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711057037977
+status: 3
+tags: []
+user_id: rhino

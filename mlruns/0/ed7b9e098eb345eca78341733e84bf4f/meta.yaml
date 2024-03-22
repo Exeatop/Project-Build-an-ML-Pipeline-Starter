@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ed7b9e098eb345eca78341733e84bf4f/artifacts
+end_time: 1711062448137
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed7b9e098eb345eca78341733e84bf4f
+run_name: intelligent-moth-303
+run_uuid: ed7b9e098eb345eca78341733e84bf4f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711062386748
+status: 3
+tags: []
+user_id: rhino

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/aa632d4f5f2b4ff3aef856d512c850ba/artifacts
+end_time: 1711057146608
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: aa632d4f5f2b4ff3aef856d512c850ba
+run_name: burly-sponge-95
+run_uuid: aa632d4f5f2b4ff3aef856d512c850ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711057041627
+status: 3
+tags: []
+user_id: rhino

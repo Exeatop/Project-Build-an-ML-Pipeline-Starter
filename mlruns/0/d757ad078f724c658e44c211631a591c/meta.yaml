@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/d757ad078f724c658e44c211631a591c/artifacts
+end_time: 1711060395689
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d757ad078f724c658e44c211631a591c
+run_name: sneaky-steed-957
+run_uuid: d757ad078f724c658e44c211631a591c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711060356636
+status: 4
+tags: []
+user_id: rhino

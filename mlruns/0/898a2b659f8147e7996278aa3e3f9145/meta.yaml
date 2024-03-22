@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/898a2b659f8147e7996278aa3e3f9145/artifacts
+end_time: 1711058979536
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 898a2b659f8147e7996278aa3e3f9145
+run_name: melodic-grouse-213
+run_uuid: 898a2b659f8147e7996278aa3e3f9145
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711058978782
+status: 4
+tags: []
+user_id: rhino

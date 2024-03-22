@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2bae1bbfd69e47808aa57a9a7f406755/artifacts
+end_time: 1711056310603
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2bae1bbfd69e47808aa57a9a7f406755
+run_name: abrasive-quail-388
+run_uuid: 2bae1bbfd69e47808aa57a9a7f406755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711056271479
+status: 4
+tags: []
+user_id: rhino

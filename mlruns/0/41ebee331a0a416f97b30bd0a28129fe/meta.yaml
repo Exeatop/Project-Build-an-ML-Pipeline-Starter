@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/41ebee331a0a416f97b30bd0a28129fe/artifacts
+end_time: 1711059090494
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 41ebee331a0a416f97b30bd0a28129fe
+run_name: agreeable-mule-574
+run_uuid: 41ebee331a0a416f97b30bd0a28129fe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711059089742
+status: 4
+tags: []
+user_id: rhino

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/8b13d0f60c624ffeb599f6d666a3095b/artifacts
+end_time: 1711059329979
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8b13d0f60c624ffeb599f6d666a3095b
+run_name: nebulous-bug-819
+run_uuid: 8b13d0f60c624ffeb599f6d666a3095b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711059178267
+status: 4
+tags: []
+user_id: rhino

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/2c6a228fcbd443d8873e83de0783ccd6/artifacts
+end_time: 1711061975406
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2c6a228fcbd443d8873e83de0783ccd6
+run_name: smiling-lynx-643
+run_uuid: 2c6a228fcbd443d8873e83de0783ccd6
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711061941576
+status: 3
+tags: []
+user_id: rhino

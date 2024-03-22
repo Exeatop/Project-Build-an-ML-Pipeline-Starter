@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9017803af3f5493da6d6fc70b28484af/artifacts
+end_time: 1711055118652
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9017803af3f5493da6d6fc70b28484af
+run_name: resilient-foal-675
+run_uuid: 9017803af3f5493da6d6fc70b28484af
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711055075332
+status: 3
+tags: []
+user_id: rhino

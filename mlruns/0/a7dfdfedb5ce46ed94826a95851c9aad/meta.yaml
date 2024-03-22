@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/a7dfdfedb5ce46ed94826a95851c9aad/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a7dfdfedb5ce46ed94826a95851c9aad
+run_name: rebellious-stag-670
+run_uuid: a7dfdfedb5ce46ed94826a95851c9aad
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711052626170
+status: 1
+tags: []
+user_id: rhino

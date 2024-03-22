@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/ca2971607361476c9ec8b35521e5d58b/artifacts
+end_time: 1711059016207
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ca2971607361476c9ec8b35521e5d58b
+run_name: thundering-loon-253
+run_uuid: ca2971607361476c9ec8b35521e5d58b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711059015449
+status: 4
+tags: []
+user_id: rhino
