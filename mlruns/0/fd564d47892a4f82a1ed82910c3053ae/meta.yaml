@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/fd564d47892a4f82a1ed82910c3053ae/artifacts
+end_time: 1711077793358
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd564d47892a4f82a1ed82910c3053ae
+run_name: bold-mole-554
+run_uuid: fd564d47892a4f82a1ed82910c3053ae
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077783467
+status: 3
+tags: []
+user_id: rhino

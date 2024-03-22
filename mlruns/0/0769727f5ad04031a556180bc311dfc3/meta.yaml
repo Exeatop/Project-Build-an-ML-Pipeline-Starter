@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/0769727f5ad04031a556180bc311dfc3/artifacts
+end_time: 1711077849880
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 0769727f5ad04031a556180bc311dfc3
+run_name: polite-deer-994
+run_uuid: 0769727f5ad04031a556180bc311dfc3
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077827067
+status: 3
+tags: []
+user_id: rhino

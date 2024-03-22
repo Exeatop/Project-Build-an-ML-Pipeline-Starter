@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/4f13e7aa2f854453a94e330c774f28db/artifacts
+end_time: 1711077824088
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4f13e7aa2f854453a94e330c774f28db
+run_name: intrigued-cat-44
+run_uuid: 4f13e7aa2f854453a94e330c774f28db
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077814504
+status: 3
+tags: []
+user_id: rhino
