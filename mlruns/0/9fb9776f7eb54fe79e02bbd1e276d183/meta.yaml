@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/9fb9776f7eb54fe79e02bbd1e276d183/artifacts
+end_time: 1711077277813
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 9fb9776f7eb54fe79e02bbd1e276d183
+run_name: rogue-grub-290
+run_uuid: 9fb9776f7eb54fe79e02bbd1e276d183
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077256524
+status: 3
+tags: []
+user_id: rhino

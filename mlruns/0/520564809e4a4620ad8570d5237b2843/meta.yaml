@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/520564809e4a4620ad8570d5237b2843/artifacts
+end_time: 1711077256514
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 520564809e4a4620ad8570d5237b2843
+run_name: bald-eel-297
+run_uuid: 520564809e4a4620ad8570d5237b2843
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077234935
+status: 3
+tags: []
+user_id: rhino

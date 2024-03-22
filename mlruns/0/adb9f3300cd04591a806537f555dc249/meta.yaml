@@ -1,0 +1,15 @@
+artifact_uri: file:///home/rhino/Project-Build-an-ML-Pipeline-Starter/mlruns/0/adb9f3300cd04591a806537f555dc249/artifacts
+end_time: 1711077287912
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: adb9f3300cd04591a806537f555dc249
+run_name: casual-frog-4
+run_uuid: adb9f3300cd04591a806537f555dc249
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1711077230841
+status: 4
+tags: []
+user_id: rhino
